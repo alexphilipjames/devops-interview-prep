@@ -22,7 +22,7 @@ This plan provides a structured, day-by-day guide to help you prepare comprehens
 
 ---
 
-### 🗓️ Day 2: 💡 DevOps Concepts & ☁️ Cloud Fundamentals
+### 🗓️ Day 2: 💡 DevOps Concepts & Cloud Fundamentals
 
 > **🎯 Goal:** Solidify understanding of core DevOps philosophies and the basics of their primary cloud environment.
 
@@ -171,7 +171,7 @@ This plan provides a structured, day-by-day guide to help you prepare comprehens
 
 ---
 
-### 🗓️ Day 11: 🛡️ Security & ኔ Networking in DevOps
+### 🗓️ Day 11: 🛡️ Security & Networking in DevOps
 
 > **🎯 Goal:** Integrate fundamental security (`DevSecOps`) and networking concepts relevant to DevOps workflows.
 
@@ -189,7 +189,7 @@ This plan provides a structured, day-by-day guide to help you prepare comprehens
 
 ---
 
-### 🗓️ Day 12: 📐 System Design Practice & 🔍 Troubleshooting
+### 🗓️ Day 12: 📐 System Design Practice & Troubleshooting
 
 > **🎯 Goal:** Apply accumulated knowledge to design DevOps-related systems and practice common troubleshooting scenarios.
 
@@ -208,7 +208,7 @@ This plan provides a structured, day-by-day guide to help you prepare comprehens
 
 ---
 
-### 🗓️ Day 13: 🤝 Behavioral Prep & ❓ Refining Questions
+### 🗓️ Day 13: 🤝 Behavioral Prep & Refining Questions
 
 > **🎯 Goal:** Prepare compelling behavioral answers using the STARR method and finalize insightful questions for your interviewers.
 
