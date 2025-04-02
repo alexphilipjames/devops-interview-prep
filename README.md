@@ -1,4 +1,4 @@
-# 🚀 14-Day Emergency DevOps Interview Prep Plan 🚀
+# 14-Day Emergency DevOps Interview Prep Plan
 
 Welcome! This plan provides a structured, day-by-day guide to help you prepare comprehensively for a DevOps Engineer interview over two weeks. It covers foundational concepts (including Linux & Networking), core technologies, practical exercises, and interview strategies.
 
