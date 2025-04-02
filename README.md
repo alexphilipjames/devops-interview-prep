@@ -1,6 +1,6 @@
-# 14-Day Emergency DevOps Interview Prep Plan
+# 🚀 14-Day Emergency DevOps Interview Prep Plan 🚀
 
-Welcome! This plan provides a structured, day-by-day guide to help you prepare comprehensively for a DevOps Engineer interview over two weeks. It covers foundational concepts (including Linux & Networking), core technologies, practical exercises, and interview strategies.
+This plan provides a structured, day-by-day guide to help you prepare comprehensively for a DevOps Engineer interview over two weeks. It covers foundational concepts (including Linux, Networking, Git), core technologies, practical exercises, and interview strategies.
 
 ---
 
@@ -59,27 +59,28 @@ Welcome! This plan provides a structured, day-by-day guide to help you prepare c
 
 ---
 
-### 🗓️ Day 3: 💡 DevOps Concepts & ☁️ Cloud Fundamentals
+### 🗓️ Day 3: 💡 DevOps Concepts, Cloud Fundamentals & Git Essentials
 
-> **🎯 Goal:** Understand core DevOps philosophies and the basics of their primary cloud environment.
+> **🎯 Goal:** Understand core DevOps philosophies, the basics of their primary cloud environment, and master essential `Git` version control concepts and workflows.
 
 **🛠️ Activities:**
-* Review DevOps Pillars: **CI/CD** principles, **Infrastructure as Code (IaC)** importance, **Monitoring vs. Observability**, **Configuration Management** goals, **DevOps Culture** (collaboration, feedback loops, automation).
-* Study Cloud Fundamentals (Focus on their primary provider: `AWS`, `Azure`, or `GCP`):
-    * Core Compute: VMs (`EC2`), Serverless (`Lambda`/`Functions`).
-    * Storage: Object (`S3`/`Blob`), Block (`EBS`/`Managed Disks`), File (`EFS`/`Azure Files`).
-    * Networking: VPC/`VNet`, Subnets, Security Groups/`NSG`s, Load Balancers (basic concepts).
-    * Identity & Access Management (IAM): Users, Roles, Policies, Best Practices (Least Privilege).
-    * Managed Databases (e.g., RDS, SQL Azure - basic concepts).
-* Connect DevOps concepts to Cloud services (e.g., using IaC to manage cloud resources, CI/CD deploying to cloud).
+* **Review DevOps Pillars:** **CI/CD** principles, **Infrastructure as Code (IaC)** importance, **Monitoring vs. Observability**, **Configuration Management** goals, **DevOps Culture** (collaboration, feedback loops, automation).
+* **Study Cloud Fundamentals:** (Focus on their primary provider: `AWS`, `Azure`, or `GCP`): Core Compute, Storage, Networking (VPC/`VNet`, SG/`NSG`, LB), IAM, Managed Databases (basic concepts).
+* **Version Control with `Git`:**
+    * **Core Concepts:** Understand Repository, Working Directory, Staging Area (Index), Commit, Branch, Merge (including different strategies like fast-forward vs recursive), Remote (e.g., GitHub, GitLab, Bitbucket), HEAD, Tags.
+    * **Essential Commands:** Practice `git init`, `git clone`, `git status`, `git add`, `git commit -m`, `git log` (and variations like `--oneline`, `--graph`), `git diff`, `git branch`, `git checkout`/`git switch`, `git merge`.
+    * **Working with Remotes:** Practice `git remote add`, `git fetch`, `git pull` (and `--rebase`), `git push`.
+    * **Branching Strategies:** Understand the concepts behind Feature Branching, Gitflow (high-level), Trunk-Based Development (high-level). Why use branches?
+    * **Collaboration:** Basic understanding of how to handle Merge Conflicts.
+    * **Ignoring Files:** Understand and use `.gitignore`.
 
-> **✅ Output:** Strong grasp of essential DevOps principles and foundational knowledge of relevant cloud provider core services.
+> **✅ Output:** Strong grasp of DevOps principles, foundational cloud knowledge, and confidence using `Git` for version control tasks including branching, merging, and remote collaboration.
 
 ---
 
 ### 🗓️ Day 4: 💻 Scripting for Automation (`Python`/`Bash`)
 
-> **🎯 Goal:** Develop practical scripting skills, leveraging Linux fundamentals, for automating common DevOps tasks.
+> **🎯 Goal:** Develop practical scripting skills, leveraging Linux fundamentals and assuming code is managed in `Git`, for automating common DevOps tasks.
 
 **🛠️ Activities:**
 * Select primary language: `Python` (highly recommended) and/or `Bash` (essential).
@@ -90,48 +91,48 @@ Welcome! This plan provides a structured, day-by-day guide to help you prepare c
     * Data Parsing (JSON using `json` lib or `jq`, YAML using `PyYAML`).
     * OS Interaction (running commands via `subprocess` or `os.system`, managing processes, gathering system info).
     * Combining tools using pipes (`|`) within scripts.
-* Focus on: **Readability**, **Error Handling**, **Modularity** (functions), **Idempotency** where applicable.
+* Focus on: **Readability**, **Error Handling**, **Modularity** (functions), **Idempotency** where applicable. (Code should be versioned in `Git`).
 
-> **✅ Output:** Ability to write simple-to-intermediate scripts for common automation needs; referenceable code snippets leveraging OS commands.
+> **✅ Output:** Ability to write simple-to-intermediate scripts for common automation needs; referenceable code snippets leveraging OS commands, managed with Git.
 
 ---
 
 ### 🗓️ Day 5: 🏗️ Infrastructure as Code (IaC) - Part 1 (Fundamentals & Tooling)
 
-> **🎯 Goal:** Understand IaC principles and gain hands-on experience with a primary tool (e.g., `Terraform`).
+> **🎯 Goal:** Understand IaC principles and gain hands-on experience with a primary tool (e.g., `Terraform`), managing code with `Git`.
 
 **🛠️ Activities:**
-* Explore IaC Concepts: **Declarative** approach, **State Management**, **Idempotency**, **Modularity**.
+* Explore IaC Concepts: **Declarative** approach, **State Management**, **Idempotency**, **Modularity**. (Code should be versioned in `Git`).
 * Setup Chosen Tool: Install `Terraform` (or `CloudFormation`/`ARM`/`Pulumi`).
 * Work Through Basics: Define simple cloud resources (VM, Storage Bucket, Security Group, basic network).
 * Understand Core Workflow: `terraform init`, `terraform plan`, `terraform apply`, `terraform destroy`, `terraform fmt`, `terraform validate`.
 * Learn about: Input **Variables**, Resource **Outputs**, Basic **Dependencies**, Data Sources.
 
-> **✅ Output:** Understanding of IaC core concepts and basic proficiency defining/managing simple infrastructure with your chosen tool.
+> **✅ Output:** Understanding of IaC core concepts and basic proficiency defining/managing simple infrastructure with your chosen tool, using Git for code management.
 
 ---
 
 ### 🗓️ Day 6: 🏗️ Infrastructure as Code (IaC) - Part 2 (Intermediate Concepts)
 
-> **🎯 Goal:** Explore more advanced IaC features, best practices, and structure.
+> **🎯 Goal:** Explore more advanced IaC features, best practices, and structure, managed within `Git`.
 
 **🛠️ Activities:**
-* Learn Modularity: Use `Terraform Modules` (local and remote/registry) or (`CloudFormation Nested Stacks`) for reusable infrastructure components.
+* Learn Modularity: Use `Terraform Modules` (local and remote/registry) or (`CloudFormation Nested Stacks`) for reusable infrastructure components. (Modules versioned in `Git`).
 * Deep Dive into State: **Remote State** backends (e.g., `S3`, `Azure Blob Storage`), **State Locking** (critical for teams), `terraform workspace`.
 * Handle Sensitive Data: Integrate with secrets management tools (`Vault`, `AWS Secrets Manager`, `Azure Key Vault`), avoid hardcoding secrets. Use sensitive variable flags.
 * Build More Complex Setups: E.g., Provision a web server cluster behind a load balancer with database connectivity.
 * Explore IaC Best Practices: Linting (`tflint`), static analysis (`tfsec`/`checkov`), directory structure patterns, version constraints.
 
-> **✅ Output:** Ability to structure IaC code effectively using modules, understand state management trade-offs, handle secrets securely, and apply best practices.
+> **✅ Output:** Ability to structure IaC code effectively using modules, understand state management trade-offs, handle secrets securely, and apply best practices, all managed via Git.
 
 ---
 
 ### 🗓️ Day 7: ⚙️ Configuration Management (`Ansible`/`Chef`/`Puppet`)
 
-> **🎯 Goal:** Understand the role of configuration management and gain basic proficiency in one tool (e.g., `Ansible`).
+> **🎯 Goal:** Understand the role of configuration management and gain basic proficiency in one tool (e.g., `Ansible`), managing code with `Git`.
 
 **🛠️ Activities:**
-* Differentiate: IaC (Provisioning) vs. Configuration Management (Configuration & Maintenance). Understand when to use which.
+* Differentiate: IaC (Provisioning) vs. Configuration Management (Configuration & Maintenance). Understand when to use which. (Code/Playbooks versioned in `Git`).
 * Understand Key Concepts: **Idempotency**, **Push vs. Pull** models, **Agent vs. Agentless**.
 * Get Hands-on (`Ansible` recommended for simplicity):
     * Write basic **Playbooks**. Use common modules (`apt`/`yum`, `copy`, `template`, `service`, `user`, `file`).
@@ -141,7 +142,7 @@ Welcome! This plan provides a structured, day-by-day guide to help you prepare c
     * Use Handlers and Variables.
     * Look into `ansible-vault` for encrypting sensitive data.
 
-> **✅ Output:** Understanding of configuration management principles and the ability to automate basic server setup/configuration tasks idempotently.
+> **✅ Output:** Understanding of configuration management principles and the ability to automate basic server setup/configuration tasks idempotently, using Git for code management.
 
 ---
 
@@ -149,7 +150,7 @@ Welcome! This plan provides a structured, day-by-day guide to help you prepare c
 
 ### 🗓️ Day 8: 🐳 Containers (`Docker`)
 
-> **🎯 Goal:** Master `Docker` fundamentals for building, shipping, and running applications consistently.
+> **🎯 Goal:** Master `Docker` fundamentals for building, shipping, and running applications consistently. (`Dockerfile`s managed in `Git`).
 
 **🛠️ Activities:**
 * Review Core Concepts: **Images** vs. **Containers**, Layered Filesystem, Namespaces & Cgroups (high-level), Benefits (Consistency, Isolation, Density).
@@ -157,7 +158,7 @@ Welcome! This plan provides a structured, day-by-day guide to help you prepare c
 * Write Effective `Dockerfile`s: Understand instructions (`FROM`, `RUN`, `COPY`, `ADD`, `WORKDIR`, `EXPOSE`, `USER`, `CMD` vs `ENTRYPOINT`), **Multi-Stage Builds**, minimizing layers, security best practices (non-root user).
 * Understand `Docker` Networking: Port mapping, bridge/host/overlay network drivers.
 * Learn `Docker` Volumes & Bind Mounts: Managing persistent data.
-* Explore `docker-compose`: Define and run multi-container applications locally for development environments.
+* Explore `docker-compose`: Define and run multi-container applications locally for development environments. (`docker-compose.yml` versioned in `Git`).
 
 > **✅ Output:** Solid understanding of `Docker`, ability to write efficient and secure `Dockerfile`s, manage container lifecycles/data/networking, and use `docker-compose`.
 
@@ -165,7 +166,7 @@ Welcome! This plan provides a structured, day-by-day guide to help you prepare c
 
 ### 🗓️ Day 9: ☸️ Container Orchestration (`Kubernetes`/`ECS`)
 
-> **🎯 Goal:** Understand the need for orchestration and learn the fundamentals of a key platform (`Kubernetes` highly recommended).
+> **🎯 Goal:** Understand the need for orchestration and learn the fundamentals of a key platform (`Kubernetes` highly recommended). (YAML manifests managed in `Git`).
 
 **🛠️ Activities:**
 * Identify Problems Solved: Scaling, Self-Healing, Service Discovery, Load Balancing, Rolling Updates/Rollbacks, Resource Management.
@@ -176,22 +177,22 @@ Welcome! This plan provides a structured, day-by-day guide to help you prepare c
     * Deploy & Expose: Run a simple application using a `Deployment` and expose it via a `Service`. Interact with `Pods`.
 * Compare (Optional): Briefly understand managed K8s (`EKS`, `AKS`, `GKE`) and alternatives (`ECS`, `Fargate`, `Nomad`).
 
-> **✅ Output:** Conceptual grasp of container orchestration; hands-on familiarity with `Kubernetes` core resources, architecture, and basic `kubectl` usage.
+> **✅ Output:** Conceptual grasp of container orchestration; hands-on familiarity with `Kubernetes` core resources, architecture, and basic `kubectl` usage, managing manifests with Git.
 
 ---
 
 ### 🗓️ Day 10: 🚀 CI/CD Pipelines & Tools
 
-> **🎯 Goal:** Design and understand continuous integration and continuous delivery/deployment workflows and common tooling.
+> **🎯 Goal:** Design and understand continuous integration and continuous delivery/deployment workflows and common tooling, triggered from `Git` repositories.
 
 **🛠️ Activities:**
-* Detail CI/CD Stages: Source -> Build -> Test (Unit, Integration, Static Analysis) -> Artifact Storage -> Deploy (Staging -> Prod) -> Verify/Monitor/Rollback. Understand the difference between CDelivery and CDeployment.
-* Explore Pipeline-as-Code: Syntax and structure for `Jenkinsfile` (Declarative/Scripted), `.gitlab-ci.yml`, `GitHub Actions` workflows.
+* Detail CI/CD Stages: Source (`Git` commit/merge trigger) -> Build -> Test (Unit, Integration, Static Analysis) -> Artifact Storage -> Deploy (Staging -> Prod) -> Verify/Monitor/Rollback. Understand the difference between CDelivery and CDeployment.
+* Explore Pipeline-as-Code: Syntax and structure for `Jenkinsfile` (Declarative/Scripted), `.gitlab-ci.yml`, `GitHub Actions` workflows. (Pipeline definitions stored in `Git`).
 * Practice with One Tool: Define a simple pipeline (trigger, stages, steps, basic build/test execution). Integrate with source control (`Git`).
 * Understand Artifact Management: Using registries like `Docker Hub`, `ECR`, `ACR`, `GCR`, `Nexus`, `Artifactory`. Versioning strategies.
 * Study Deployment Strategies: **Rolling Update**, **Blue/Green Deployment**, **Canary Release**, **A/B Testing** (conceptual). Discuss pros, cons, implementation considerations, and rollback mechanisms.
 
-> **✅ Output:** Ability to design basic CI/CD pipelines, understand pipeline-as-code syntax for a major tool, discuss various deployment strategies and trade-offs.
+> **✅ Output:** Ability to design basic CI/CD pipelines triggered by Git events, understand pipeline-as-code syntax for a major tool, discuss various deployment strategies and trade-offs.
 
 ---
 
@@ -212,7 +213,7 @@ Welcome! This plan provides a structured, day-by-day guide to help you prepare c
 
 ---
 
-### 🗓️ Day 12: 🛡️ Security & 🌐 Advanced Networking / Infrastructure Concepts
+### 🗓️ Day 12: 🛡️ Security & Advanced Networking / Infrastructure Concepts
 
 > **🎯 Goal:** Integrate fundamental security (`DevSecOps`) and explore more advanced networking and infrastructure concepts relevant in complex environments.
 
@@ -222,15 +223,15 @@ Welcome! This plan provides a structured, day-by-day guide to help you prepare c
     * IAM Best Practices: Principle of Least Privilege review; Role-Based Access Control (RBAC) in cloud and K8s.
     * Vulnerability Scanning: Tools (`Trivy`, `Clair`, `Snyk`, `Dependabot`, SAST/DAST concepts) and integration points (CI, registry).
     * Pipeline Security: Securing build environments, artifact signing/verification.
-    * Infrastructure Hardening basics.
+    * Infrastructure Hardening basics (e.g., CIS benchmarks awareness).
 * **Network Security Concepts:**
     * Firewalls: Stateful vs. Stateless concepts.
-    * Cloud Network Security: Security Groups (`AWS SG`, `Azure NSG`) vs. Network ACLs (NACLs).
-    * Secure Access Patterns: Bastion Hosts / Jump Boxes, VPNs.
+    * Cloud Network Security: Security Groups (`AWS SG`, `Azure NSG`) vs. Network ACLs (NACLs). WAF basics.
+    * Secure Access Patterns: Bastion Hosts / Jump Boxes, VPNs, Zero Trust concepts (high-level).
 * **Advanced Networking & Infrastructure:**
     * Cloud Networking: VPC Peering / Transit Gateway / VNet Peering, PrivateLink / Private Endpoints, Direct Connect / ExpressRoute concepts.
-    * Load Balancing: Layer 4 (TCP/UDP) vs. Layer 7 (HTTP/S) load balancers, common algorithms (Round Robin, Least Connections, IP Hash).
-    * Content Delivery Networks (CDN): Basic concepts (caching, edge locations).
+    * Load Balancing: Layer 4 (TCP/UDP) vs. Layer 7 (HTTP/S) load balancers, common algorithms (Round Robin, Least Connections, IP Hash), Health Checks.
+    * Content Delivery Networks (CDN): Basic concepts (caching, edge locations, invalidation).
     * Kubernetes Networking: CNI plugin overview, `Ingress` controllers (e.g., Nginx Ingress, Traefik), Network Policies for pod-to-pod traffic control.
     * Service Mesh Concepts (Optional, if relevant): e.g., Istio, Linkerd (mTLS, traffic management, observability).
 
@@ -238,21 +239,21 @@ Welcome! This plan provides a structured, day-by-day guide to help you prepare c
 
 ---
 
-### 🗓️ Day 13: 📐 System Design Practice & 🔍 Troubleshooting
+### 🗓️ Day 13: 📐 System Design Practice & Troubleshooting
 
 > **🎯 Goal:** Apply accumulated knowledge to design DevOps-related systems and practice common troubleshooting scenarios systematically.
 
 **🛠️ Activities:**
 * Tackle DevOps System Design Prompts:
-    * Focus on CI/CD pipeline design (consider security, testing, artifacts).
-    * Architect highly available/scalable infrastructure on a specific cloud (consider load balancing, auto-scaling, databases, state).
-    * Design monitoring/logging/alerting strategies for a given architecture.
-    * Consider deployment strategies (Blue/Green, Canary) implementation.
+    * Focus on CI/CD pipeline design (consider security, testing, artifacts, multi-environment promotion).
+    * Architect highly available/scalable infrastructure on a specific cloud (consider load balancing, auto-scaling, databases, state, disaster recovery).
+    * Design monitoring/logging/alerting strategies for a given architecture (consider dashboards, alert fatigue).
+    * Consider deployment strategies (Blue/Green, Canary) implementation details and automation.
 * Practice Diagramming: Use simple block diagrams to communicate architecture. Focus on explaining components, data flow, **trade-offs**, **scalability**, **reliability**, and **cost** considerations.
 * Develop Systematic Troubleshooting Methodology:
-    * Practice applying approaches like USE/RED for identifying bottlenecks.
-    * Work through hypothetical failures in CI/CD, IaC, K8s, Linux services. Define steps: Observe symptoms -> Gather data (logs, metrics) -> Formulate hypothesis -> Test hypothesis -> Repeat/Escalate.
-    * Practice using debugging tools learned (`kubectl describe/logs`, system logs, monitoring dashboards, network diagnostic tools).
+    * Practice applying approaches like USE/RED for identifying bottlenecks or the "Five Whys" for root cause analysis.
+    * Work through hypothetical failures in CI/CD, IaC, K8s, Linux services. Define steps: Observe symptoms -> Gather data (logs, metrics, traces) -> Formulate hypothesis -> Test hypothesis -> Implement fix/rollback -> Verify -> Document.
+    * Practice using debugging tools learned (`kubectl describe/logs`, system logs (`journalctl`), monitoring dashboards, network diagnostic tools (`tcpdump` basics)).
 
 > **✅ Output:** Increased confidence tackling system design questions relevant to DevOps and articulating systematic troubleshooting approaches for various scenarios.
 
@@ -267,12 +268,12 @@ Welcome! This plan provides a structured, day-by-day guide to help you prepare c
     * Review Company Values/Principles (from Day 1).
     * Refine STARR Stories (Situation, Task, Action, Result, Reflection). Ensure relevance to DevOps (collaboration, automation, problem-solving, incident response, learning, leadership). Practice telling them **out loud** smoothly.
     * Practice Your Elevator Pitch (< 1 minute).
-    * Finalize Your Questions for interviewers - ensure they are thoughtful and specific.
+    * Finalize Your Questions for interviewers - ensure they are thoughtful and specific to the role/team/company.
 * **Final Technical Review:**
     * Quickly review notes/mind maps from all previous days – focus on core concepts, commands, patterns, trade-offs.
-    * Explain key ideas **out loud** briefly (e.g., "Explain IaC state", "Explain K8s Service types").
+    * Explain key ideas **out loud** briefly (e.g., "Explain IaC state", "Explain K8s Service types", "Explain TCP 3-way handshake", "Explain Git branching").
 * **Mock Interviews (Crucial!):**
-    * Arrange sessions covering the breadth of topics: Linux/Fundamentals, Scripting, IaC, Containers/K8s, CI/CD, Monitoring, Networking/Security, System Design, Troubleshooting, Behavioral.
+    * Arrange sessions covering the breadth of topics: Linux/Fundamentals, Git, Scripting, IaC, Containers/K8s, CI/CD, Monitoring, Networking/Security, System Design, Troubleshooting, Behavioral.
     * Get constructive feedback and identify any last-minute areas needing quick reinforcement.
 * **Logistics Check:** Confirm interview time (**check timezone**!), date, video links, interviewer names. Prepare your setup (quiet space, stable internet, water, charged devices).
 * **Relax & Rest:** Avoid cramming. Trust your preparation. Get good sleep!
