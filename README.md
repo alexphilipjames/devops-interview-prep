@@ -1,6 +1,6 @@
 # 14-Day DevOps Emergency Interview Preparation Roadmap
 
-Welcome! This plan provides a structured, day-by-day guide to help you prepare comprehensively for a DevOps Engineer interview over two weeks. It covers foundational concepts, core technologies, practical exercises, and interview strategies.
+This plan provides a structured, day-by-day guide to help you prepare comprehensively for a DevOps Engineer interview over two weeks. It covers foundational concepts, core technologies, practical exercises, and interview strategies.
 
 ---
 
