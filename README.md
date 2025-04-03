@@ -1,6 +1,13 @@
 # 14-Day Emergency DevOps Interview Prep Plan
 
-This plan provides a structured, day-by-day guide to help you prepare comprehensively for a DevOps Engineer interview over two weeks. It covers foundational concepts (including Linux, Networking, Git), core technologies, practical exercises, and interview strategies.
+This two-week plan gives you a clear, day-by-day roadmap to get ready for a DevOps Engineer interview. It’s designed to help you cover all the important areas—from basic concepts like Linux, Networking, and Git, to hands-on practice, cloud system design, kubernetes and interview techniques.
+
+Here’s what’s included:
+
+- A detailed list of DevOps topics you should know
+- Tips on how to plan and research companies
+- Guidance for behavioral interview questions
+- Resume preparation tips and useful tools
 
 ---
 
@@ -28,8 +35,8 @@ This plan provides a structured, day-by-day guide to help you prepare comprehens
 
 **🛠️ Activities:**
 * **Linux Command Line Mastery:**
-    * File/Directory Management: `ls`, `cd`, `pwd`, `cp`, `mv`, `rm`, `mkdir`, `touch`, `find`, `locate`.
-    * Text Processing: `cat`, `less`, `more`, `head`, `tail`, `grep`, `sed`, `awk`.
+    * File/Directory Management: `find`, `locate`.
+    * Text Processing: `less`, `more`, `head`, `tail`, `grep`, `sed`, `awk`.
     * Permissions: `chmod`, `chown`, `sudo`; understand user/group/other permissions (symbolic & octal).
     * Process Management: `ps`, `top`, `htop`, `kill`, `nice`, `systemctl`/`service`.
     * Archiving/Compression: `tar`, `gzip`, `gunzip`.
@@ -142,7 +149,7 @@ This plan provides a structured, day-by-day guide to help you prepare comprehens
     * Use Handlers and Variables.
     * Look into `ansible-vault` for encrypting sensitive data.
 
-> **✅ Output:** Understanding of configuration management principles and the ability to automate basic server setup/configuration tasks idempotently, using Git for code management.
+> **✅ Output:** Understanding of configuration management principles like idempotency and the ability to automate basic server setup/configuration tasks idempotently, using Git for code management.
 
 ---
 
