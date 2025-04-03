@@ -42,9 +42,13 @@ Here’s what’s included:
     * Archiving/Compression: `tar`, `gzip`, `gunzip`.
     * Disk Usage: `df`, `du`.
     * Basic Networking Tools: `ping`, `ip addr` (or `ifconfig`), `netstat`, `ss`, `traceroute`, `dig`, `nslookup`, `curl`, `wget`, `lsof`.
+    * Process Management: 'ps', 'top', 'htop', 'kill', 'nice', 'systemctl', 'service', 'uptime', 'dmesg | tail', 'vmstat 1', 'mpstat -P ALL 1', 'pidstat 1', 'iostat -xz 1', 'free -m', 'sar -n DEV 1', 'sar -n TCP,ETCP 1'
 * **Operating System Concepts:**
     * Filesystem Hierarchy Standard (FHS).
+    * `/proc` filesystem
     * Kernel vs. Shell interaction.
+    * Kernel Space and User Space
+    * How Linux handles Interrupts
     * I/O Redirection & Piping (`>`, `>>`, `|`, `2>`).
     * Environment Variables (`export`, `.bashrc`/`.zshrc`).
     * Processes vs. Threads.
@@ -52,6 +56,7 @@ Here’s what’s included:
     * Inodes and File Descriptors (including standard streams 0, 1, 2).
     * Linux Boot Process (high-level: BIOS/UEFI -> Bootloader -> Kernel -> Init System).
     * Init Systems (`systemd` vs `SysVinit` concepts).
+    * Load Average
 * **Networking Fundamentals:**
     * **OSI Model:** Understand the 7 layers and the primary function of each (esp. Layers 1-4, 7).
     * **TCP/IP Model:** Relationship to OSI; focus on key protocols at each layer.
