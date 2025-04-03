@@ -1,4 +1,4 @@
-# 🚀 14-Day Emergency DevOps Interview Prep Plan 🚀
+# 14-Day Emergency DevOps Interview Prep Plan
 
 This plan provides a structured, day-by-day guide to help you prepare comprehensively for a DevOps Engineer interview over two weeks. It covers foundational concepts (including Linux, Networking, Git), core technologies, practical exercises, and interview strategies.
 
@@ -281,5 +281,40 @@ This plan provides a structured, day-by-day guide to help you prepare comprehens
 > **✅ Output:** Polished behavioral responses, consolidated knowledge, experience under simulated pressure, logistical readiness, and a calm, prepared mindset.
 
 ---
+
+## Other Important Tasks
+
+### 📌 Understand ATS (Applicant Tracking System)
+
+Most companies use an **ATS (Applicant Tracking System)** to scan resumes before a human sees them. If your resume doesn’t have the right keywords, it may never reach the recruiter.
+
+**How to make your resume ATS-friendly:**
+- Use **simple formatting** (no tables or columns).
+- Save it as a **.docx or PDF** (unless the company asks for something else).
+- Include **keywords** from the job description (e.g., Kubernetes, CI/CD, Terraform).
+- Avoid fancy designs, logos, or images.
+
+---
+
+### 🛠️ Helpful Tools for Resume Building
+
+1. [Resumake](https://resumake.io/) – Free and simple resume builder.
+2. [Standard Resume](https://standardresume.co/) – Clean, professional templates that work well with ATS.
+3. [Jobscan](https://www.jobscan.co/) – Compare your resume with a job description. Shows how well your resume matches.
+4. [Novoresume](https://novoresume.com/) – ATS-friendly templates with tips.
+5. [Zety](https://zety.com/resume-builder) – Easy tool with customization and guidance.
+
+---
+
+### ✅ What to Include in Your DevOps Resume
+
+- **Title**: “DevOps Engineer” or the role you're applying for.
+- **Summary**: 2–3 lines about your experience and skills.
+- **Skills**: Mention key DevOps tools (Docker, Jenkins, AWS, Kubernetes, etc.).
+- **Projects**: Briefly describe projects with outcomes.
+- **Certifications**: Add your CKA, AWS, or other DevOps-related certs.
+- **Experience**: Focus on what you built, automated, or improved.
+- **Links**: Add GitHub, LinkedIn, or portfolio if available.
+
 
 🎉 **Good luck with your interview! You've got this!** 🎉
